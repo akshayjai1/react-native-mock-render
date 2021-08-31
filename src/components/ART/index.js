@@ -1,6 +1,6 @@
 import createMockComponent from '../createMockComponent';
 import Transform from './Transform';
-import Path from './Path';
+// import Path from './Path';
 
 const LINEAR_GRADIENT = 1;
 const RADIAL_GRADIENT = 2;
@@ -28,7 +28,7 @@ const ReactART = {
   RadialGradient,
   Pattern,
   Transform,
-  Path,
+  Path: createMockComponent('Path'),
   Surface: createMockComponent('Surface'),
   Group: createMockComponent('Group'),
   ClippingRectangle: createMockComponent('ClippingRectangle'),
